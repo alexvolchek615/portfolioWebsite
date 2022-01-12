@@ -1,0 +1,119 @@
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+body {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.navbarSection {
+  text-align: center;
+}
+
+.navbarList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  display: inline-block;
+
+}
+
+.navbarList li {
+  float: left;
+}
+
+.navbarList li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.aboutMe {
+  text-align: center;
+}
+
+.aboutMe .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutMe .container #spacer {
+  flex: 4;
+}
+.aboutMe .container p {
+  flex: 4;
+}
+.aboutMe .container .img {
+  flex: 4;
+}
+
+/* .aboutMe p {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0;
+} */
+
+.aboutMe img {
+  display: inline-block;
+  max-width: 30%;
+  border-radius: 50%;
+} 
+
+/* .aboutMe .img{
+  flex-basis: 40%;
+} */
+
+.projects ul {
+  display: inline-block;
+}
+
+.projects li {
+  text-align: left;
+}
+
+.skills {
+    padding-top: 30px;
+}
+
+.skills img {
+    padding: 30px;
+    max-width: 4%;
+    min-width: 50px;
+}
+
+.courses ul {
+  display: inline-block;
+}
+
+.courses li {
+    text-align: left;
+}
+
+.contactImages {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  
+}
+
+.contactImages img {
+  padding: 30px;
+  max-width: 4%;
+  min-width: 50px;
+}
