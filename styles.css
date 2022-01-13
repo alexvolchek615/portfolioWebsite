@@ -11,8 +11,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.navbarSection {
+.title {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ADDFFF; 
 }
 
 .navbarList {
@@ -20,33 +23,21 @@ body {
   margin: 0;
   padding: 0px;
   display: inline-block;
-
 }
 
 .navbarList li {
-  float: left;
-  
+  float: left; 
 }
 
 .navbarList li a {
   display: block;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-.title {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ADDFFF;
-  
-}
-
 .aboutMe {
-  text-align: center;
   padding: 25px;
 }
 
@@ -60,8 +51,7 @@ body {
   border-radius: 50%;
   max-width: 15%;
   min-width: 100px;
-  padding: 25px;
-  
+  padding: 25px;  
 } 
 
 .projects{
@@ -86,8 +76,7 @@ body {
 .skills {
     padding: 30px;
     margin: 0 auto;
-    display: inline;
-    
+    display: inline;   
     
 }
 
@@ -100,10 +89,9 @@ body {
 .skills img {
     padding: 30px;
     max-width: 4%;
-    min-width: 50px;
-   
-    
+    min-width: 50px;   
 }
+
 .skills img:hover {
   padding: 30px;
   max-width: 100px;
@@ -131,8 +119,7 @@ body {
   transform: translate(-50%, -50%);
   top: 50%;
   position: absolute;
-  left: 50%;
-  
+  left: 50%; 
 }
 
 .contactImages img {
