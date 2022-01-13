@@ -3,8 +3,10 @@
 <head>
   <link rel="stylesheet" href="styles.css">
   <title>Portfolio</title>
+  <script type= "text/javascript" src = "main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body onload= "getDate()">
     <section class = "navbarSection">
         <nav class="navbar">
             <ul class = "navbarList">
@@ -24,33 +26,34 @@
         <h2 id = "aboutMeTitle">About Me</h2>
         <div class = "container">
             <div id="spacer"></div>
-            <p id = "aboutMeP">Hi! I'm Alex Volchek, a senior studying Computer Science in NYC. I am passionate about problem solving and optimization, love reading sceince fiction, and have made my entire personality about good food.</p>
             <div class = "img">
-                <a href="https://www.linkedin.com/in/alex-volchek-579496171/" target = _blank><img src="imageME.jpeg" alt="HTML tutorial"></a>
+                <a href="https://www.linkedin.com/in/alex-volchek-579496171/" target = _blank><img src="assets/images/imageME.jpeg" alt="HTML tutorial"></a>
             </div>
+            <p id = "aboutMeP">Hi! I'm Alex Volchek, a senior studying Computer Science in NYC. I am passionate about problem solving and optimization, love reading sceince fiction, and have made my entire personality about good food.</p>
+            
         </div>    
     </section>
     
     <section class = projects>
         <h2 id = "projectsTitle">Projects</h2>
         <ul>
-            <li>Interactive Machine Learning project predicting risk of stroke</li>
-            <li>Memory Allocator Implementation using C</li>
-            <li>Data Analysis project on companies created during COVID- 19</li>
-            <li>This portfolio using HTML, CSS, JavaScript</li>
+            <li><a href = "https://github.com/alexvolchek615/stroke-predictions-ml-model" target = _blank>Interactive Machine Learning project predicting risk of stroke</a></li>
+            <li><a href = "https://github.com/alexvolchek615/memory_allocator" target = _blank>Memory Allocator Implementation using C</a></li>
+            <li><a href = "https://github.com/alexvolchek615/COVID19Companies" target = _blank>Data Analysis project on companies created during COVID- 19</a></li>
+            <li><a href = "index.html">This portfolio using HTML, CSS, JavaScript</a></li>
             
         </ul>
 
     </section>
     <section class = "skills">
         <h2 id = "skillsTitle"> Skills </h2>
-        <div id = "images">
-            <img src = "python.png" alt = "python">
-            <img src = "java.png" alt = "java">
-            <img src = "c.png" alt = "c">
-            <img src = "javascript.png" alt = "javascript">
-            <img src = "html.png" alt = "html">
-            <img src = "css.png" alt = "css">
+        <div id = "skillImages">
+            <img src = "assets/images/python.png" alt = "python">
+            <img src = "assets/images/java.png" alt = "java">
+            <img src = "assets/images/c.png" alt = "c">
+            <img src = "assets/images/javascript.png" alt = "javascript">
+            <img src = "assets/images/html.png" alt = "html">
+            <img src = "assets/images/css.png" alt = "css">
         </div>
 
     </section>
@@ -61,7 +64,6 @@
             <li>Applied Machine Learning</li>
             <li>Computer Systems</li>
             <li>Algorithms</li>
-            <li>Applied Machine Learning</li>
             <li>Applied Linux Programming and Scripting</li>
             <li>Data Structures</li>
             <li>Discrete Structures</li>
@@ -76,10 +78,19 @@
         </ul>
 
     </section>
-    <section class = "associations">
+    <section class = "scrollUp">
+        <i class="scroll-up" id="scroll-up"
+      ><img onclick="scrollUp()"
+        src="assets/images/icons8-double-up.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
 
     </section>
 
+    <!-- <p>Up to date as of <span id ="date">?</span></p> -->
 
 </body>
+<footer><p>Up to date as of <span id ="date">?</span></p></footer>
 </html>
+
